@@ -41,7 +41,7 @@
 <details>
   <summary>Client</summary>
   <ul>
-    <li><a href="https://github.com/lenkon/to-do-list/blob/main/.github/workflows/linters.yml">linter</a></li>
+    <li><a href="https://github.com/lenkon/leaderboard/blob/setup-project/.github/workflows/linters.yml">linter</a></li>
     <li><a href="https://www.w3schools.com/html/">html</a></li>
     <li><a href="https://www.w3schools.com/w3css/defaulT.asp">css</a></li>
     <li><a href="https://www.w3schools.com/js/default.asp">javascript</a></li>
