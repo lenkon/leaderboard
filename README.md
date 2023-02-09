@@ -2,7 +2,7 @@
 
 <div align="center">
 
-  <h3><b>Leaderboard: setup project</b></h3>
+  <h3><b>Leaderboard: hit the API</b></h3>
 
 </div>
 
@@ -26,11 +26,11 @@
 - [❓ FAQ](#faq)
 - [📝 License](#license)
 
-# 📖 [Leaderboard: setup project] <a name="about-project"></a>
+# 📖 [Leaderboard: hit the API] <a name="about-project"></a>
 
 > The leaderboard website displays scores submitted by different players. It also allows to submit scores. All data is preserved thanks to the external Leaderboard API service. Built with HTML, CSS and JavaScript.
 
-**[Leaderboard: setup project]** is...
+**[Leaderboard: hit the API]** is...
 
 ## 🛠 Built With <a name="built-with"></a>
 
