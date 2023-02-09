@@ -13,10 +13,6 @@ class Scores {
   }
 
   getGameId = async () => {
-    // if (this.id.length > 0) {
-    //   return;
-    // }
-
     await fetch(this.gameURL, {
       method: 'POST',
       body: JSON.stringify({ name: 'Leaderboard Service Game' }),
@@ -27,10 +23,8 @@ class Scores {
       .then((response) => response.json())
       .then((json) => {
         const retrievedId = this.parseId(json.result);
-        // if (json.length > 0) {
         localStorage.setItem('game-id', JSON.stringify(retrievedId));
         this.id = JSON.parse(localStorage.getItem('game-id')) || [];
-        // }
       });
   }
 
@@ -42,10 +36,7 @@ class Scores {
       headers: {
         'Content-Type': 'application/json; charset=UTF-8',
       },
-    }).then((response) => response.json())
-      .then(() => {
-        this.retrieveScores();
-      });
+    }).then((response) => response.json());
   }
 
   showScores = async (scores) => {
