@@ -2,7 +2,7 @@
 
 <div align="center">
 
-  <h3><b>Leaderboard: hit the API</b></h3>
+  <h3><b>Leaderboard: final touches</b></h3>
 
 </div>
 
@@ -26,11 +26,11 @@
 - [❓ FAQ](#faq)
 - [📝 License](#license)
 
-# 📖 [Leaderboard: hit the API] <a name="about-project"></a>
+# 📖 [Leaderboard: final touches] <a name="about-project"></a>
 
 > The leaderboard website displays scores submitted by different players. It also allows to submit scores. All data is preserved thanks to the external Leaderboard API service. Built with HTML, CSS and JavaScript.
 
-**[Leaderboard: hit the API]** is...
+**[Leaderboard: final touches]** is...
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -55,6 +55,10 @@
 - **[Use webpack]**
 - **[Use Gitflow]**
 - **[Use wireframe for design]**
+- **[Use API to manage game scores]**
+- **[Create a new game id]**
+- **[Add score to the scoreboard]**
+- **[Display scoreboard]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
