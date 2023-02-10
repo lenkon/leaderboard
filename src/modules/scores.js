@@ -43,7 +43,7 @@ class Scores {
     let scoresHtml = '';
     scoresHtml += '<table class="table table-hover table-sm table-striped"><tbody>';
     scoresHtml += scores.reduce((total, current) => {
-      total += `<tr><td>${current.user}: ${current.score}</td></tr>`;
+      total += `<tr><td>${current.user}: <span class="points">${current.score}</span></td></tr>`;
       return total;
     }, '');
     scoresHtml += '</tbody></table>';
